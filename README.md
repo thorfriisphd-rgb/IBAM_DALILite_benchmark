@@ -2,7 +2,7 @@
 
 This repository contains the reproducibility pipeline for the structural benchmarking analysis used in the manuscript:
 
-* C12orf29 encodes IBAM (In Between Actin and Myosin), a sarcomeric protein with a conserved actomyosin binding grammar spanning ~1 billion years of evolution *
+*C12orf29 encodes IBAM (In Between Actin and Myosin), a sarcomeric protein with a conserved actomyosin binding grammar spanning ~1 billion years of evolution*
 
 The DALILite benchmark tests whether C12orf29 (IBAM) belongs to the RNA ligase structural family, an annotation previously suggested in the literature.
 
