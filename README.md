@@ -58,49 +58,48 @@ export PATH="$HOME/DaliLite/DaliLite.v5/bin:$PATH"
 #### Running the Benchmark
 
 From the repository root:
-
+````
 cd dali_projects
 bash ../scripts/run_dali_benchmark_pipeline.sh
-
-The pipeline will automatically:
-
+````
+#### The pipeline will automatically:
+````
 Validate the dataset structure
 Run all DALILite pairwise structural comparisons
 Parse the results
 Generate manuscript-ready summary tables
-
+````
 Runtime on a typical workstation is approximately 1 minute.
 
-Output
+### Output
 
-Results are written to:
-
+#### Results are written to:
+```
 dali_batch_runs/results/
+```
+### Generated files:
 
-Generated files:
-
-File	Description
+#### File	Description
+```
 dali_summary.tsv	Parsed DALILite output
 dali_manuscript_table.tsv	Formatted table used in the manuscript
 dali_manuscript_table.md	Markdown version of the benchmark table
-
+```
 A preview of the benchmark results is also printed to the terminal when the pipeline finishes.
 
-Reproducibility
+## Reproducibility
 
 All structural comparisons are explicitly defined in the dataset.
-
 Running the pipeline regenerates the benchmarking table directly from the input structures without manual intervention.
-
 This ensures that the structural benchmark reported in the manuscript can be fully reproduced by any reviewer or reader.
 
-Author
+### Author
 
 Thor Friis
 
-ORCID
+###ORCID
 https://orcid.org/0000-0002-4132-4912
 
-License
+### License
 
 Released for reproducible scientific use.
