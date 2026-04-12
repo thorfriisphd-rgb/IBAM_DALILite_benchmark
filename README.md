@@ -36,7 +36,8 @@ IBAM_DALILite_benchmark/
 #### Pipeline outputs are generated automatically in:
 
 dali_batch_runs/
-Requirements
+
+## Requirements
 
 ### The pipeline requires:
 ```
@@ -61,7 +62,7 @@ From the repository root:
 cd dali_projects
 bash ../scripts/run_dali_benchmark_pipeline.sh
 ````
-#### The pipeline will automatically:
+The pipeline will automatically:
 ````
 Validate the dataset structure
 Run all DALILite pairwise structural comparisons
