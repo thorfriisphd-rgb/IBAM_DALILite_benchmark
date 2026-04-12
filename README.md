@@ -55,7 +55,7 @@ DALILite must be available in the system PATH.
 ```
 export PATH="$HOME/DaliLite/DaliLite.v5/bin:$PATH"
 ```
-#### Running the Benchmark
+### Running the Benchmark
 
 From the repository root:
 ````
