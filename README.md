@@ -11,7 +11,7 @@ The pipeline performs systematic DALILite structural comparisons between:
 The goal is to rigorously test the hypothesis that C12orf29 is structurally related to RNA ligases.
 
 The entire analysis can be reproduced with a single command.
-
+```
 ## Repository Structure
 
 IBAM_DALILite_benchmark/
@@ -33,7 +33,7 @@ IBAM_DALILite_benchmark/
 
 
 `dali_projects/` contains the input structures only and should **not be modified**.
-
+```
 Pipeline outputs are generated automatically in:
 
 
