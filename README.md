@@ -34,9 +34,9 @@ IBAM_DALILite_benchmark/
 `dali_projects/` contains the input structures only and should **not be modified**.
 
 ##### Pipeline outputs are generated automatically in:
-
+```
 dali_batch_runs/
-
+```
 ## Requirements
 
 ### The pipeline requires:
