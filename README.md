@@ -2,7 +2,7 @@
 
 Reproducible structural benchmarking pipeline used in the C12orf29 / IBAM study to evaluate whether C12orf29 belongs to the RNA ligase structural family.
 
-### The pipeline performs systematic DALILite structural comparisons between:
+## The pipeline performs systematic DALILite structural comparisons between:
 
 - canonical RNA ligases
 - IBAM vs RNA ligases
