@@ -47,14 +47,15 @@ Python 3
 ```
 DALILite must be available in the system PATH.
 
-Example installation location:
-
+#### Example installation location:
+```
 ~/DaliLite/DaliLite.v5/bin/dali.pl
-
-Add DALILite to the PATH if necessary:
-
+```
+#### Add DALILite to the PATH if necessary:
+```
 export PATH="$HOME/DaliLite/DaliLite.v5/bin:$PATH"
-Running the Benchmark
+```
+#### Running the Benchmark
 
 From the repository root:
 
