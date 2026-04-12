@@ -29,11 +29,11 @@ IBAM_DALILite_benchmark/
 │   └── make_manuscript_dali_table_md.py
 │
 └── README.md
-
+```
 
 `dali_projects/` contains the input structures only and should **not be modified**.
-```
-Pipeline outputs are generated automatically in:
+
+#### Pipeline outputs are generated automatically in:
 
 dali_batch_runs/
 Requirements
