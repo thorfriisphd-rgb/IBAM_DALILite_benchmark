@@ -13,11 +13,12 @@ The goal is to rigorously test the hypothesis that C12orf29 is structurally rela
 The entire analysis can be reproduced with a single command.
 
 Repository Structure
+
 IBAM_DALILite_benchmark/
 │
-├── dali_projects/                # Input dataset (PDB structures and comparison definitions)
+├── dali_projects/       # Input dataset (PDB structures and comparison definitions)
 │
-├── scripts/                      # Pipeline scripts
+├── scripts/             # Pipeline scripts
 │   ├── run_dali_benchmark_pipeline.sh
 │   ├── run_dalilite_batch.sh
 │   ├── parse_dalilite_results.sh
