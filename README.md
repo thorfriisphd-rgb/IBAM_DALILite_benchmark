@@ -93,12 +93,10 @@ Running the pipeline regenerates the benchmarking table directly from the input 
 This ensures that the structural benchmark reported in the manuscript can be fully reproduced by any reviewer or reader.
 
 ### Author
-
 Thor Friis
 
 ### ORCID
 https://orcid.org/0000-0002-4132-4912
 
 ### License
-
 Released for reproducible scientific use.
