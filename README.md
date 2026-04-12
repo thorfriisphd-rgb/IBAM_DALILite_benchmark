@@ -12,7 +12,7 @@ The goal is to rigorously test the hypothesis that C12orf29 is structurally rela
 
 The entire analysis can be reproduced with a single command.
 
-Repository Structure
+## Repository Structure
 
 IBAM_DALILite_benchmark/
 │
@@ -31,7 +31,11 @@ IBAM_DALILite_benchmark/
 │
 └── README.md
 
-dali_projects/ contains the input structures only and should not be modified.
+
+`dali_projects/` contains the input structures only and should **not be modified**.
+
+Pipeline outputs are generated automatically in:
+
 
 Pipeline outputs are generated automatically in:
 
