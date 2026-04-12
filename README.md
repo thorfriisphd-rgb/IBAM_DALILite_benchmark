@@ -16,9 +16,13 @@ Repository Structure
 
 IBAM_DALILite_benchmark/
 │
-├── dali_projects/       # Input dataset (PDB structures and comparison definitions)
+├── dali_projects/                  # Input dataset (PDB structures and comparison definitions)
+│   ├── dali_1S68_vs_5COT/
+│   ├── dali_1S68_vs_OaC12/
+│   ├── dali_5COT_vs_2HVQ/
+│   └── ... (additional comparisons)
 │
-├── scripts/             # Pipeline scripts
+├── scripts/                        # Pipeline scripts
 │   ├── run_dali_benchmark_pipeline.sh
 │   ├── run_dalilite_batch.sh
 │   ├── parse_dalilite_results.sh
