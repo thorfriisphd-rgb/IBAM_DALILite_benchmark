@@ -39,7 +39,7 @@ Pipeline outputs are generated automatically in:
 dali_batch_runs/
 Requirements
 
-# The pipeline requires:
+### The pipeline requires:
 
 Linux or macOS shell
 DALILite v5
