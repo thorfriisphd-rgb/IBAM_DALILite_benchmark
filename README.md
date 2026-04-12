@@ -40,11 +40,11 @@ dali_batch_runs/
 Requirements
 
 ### The pipeline requires:
-
+```
 Linux or macOS shell
 DALILite v5
 Python 3
-
+```
 DALILite must be available in the system PATH.
 
 Example installation location:
