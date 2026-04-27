@@ -1,4 +1,4 @@
-DALI-output/
+dali_batch_runs/
 __pycache__/
 *.pyc
 *.log
