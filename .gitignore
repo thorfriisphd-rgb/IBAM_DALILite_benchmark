@@ -1,0 +1,4 @@
+DALI-output/
+__pycache__/
+*.pyc
+*.log
