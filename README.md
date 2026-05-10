@@ -1,12 +1,12 @@
 # IBAM DALILite Structural Benchmark
 
-This repository contains the reproducibility pipeline for the structural benchmarking analysis used in the manuscript:
+This repository contains the reproducibility pipeline for the structural benchmarking analyses used in the IBAM/C12orf29 study.
 
-***C12orf29 encodes IBAM (In Between Actin and Myosin), a sarcomeric protein with a conserved actomyosin binding grammar spanning ~1 billion years of evolution***
+C12orf29 is proposed here to encode IBAM (In Between Actin and Myosin), a conserved contractile-system protein exhibiting a deeply conserved actomyosin interaction grammar spanning approximately one billion years of evolution.
 
-The DALILite benchmark tests whether C12orf29 (IBAM) belongs to the RNA ligase structural family, an annotation previously suggested in the literature.
+The DALILite benchmark framework tests whether IBAM conforms to canonical RNA ligase structural families, an annotation previously proposed in the literature.
 
-#### The pipeline performs systematic DALILite structural comparisons between:
+The pipeline performs systematic DALILite structural comparisons between:
 
 - canonical RNA ligases
 - IBAM vs RNA ligases
