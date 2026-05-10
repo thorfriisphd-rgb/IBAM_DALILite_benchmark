@@ -90,7 +90,9 @@ dali_manuscript_table.tsv	Formatted table used in the manuscript
 dali_manuscript_table.md	Markdown version of the benchmark table
 ```
 A preview of the benchmark results is also printed to the terminal when the pipeline finishes.
+
 ---
+
 ## Reproducibility
 
 All structural comparisons are explicitly defined in the dataset.
