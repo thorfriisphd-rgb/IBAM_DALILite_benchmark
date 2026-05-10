@@ -90,12 +90,19 @@ dali_manuscript_table.tsv	Formatted table used in the manuscript
 dali_manuscript_table.md	Markdown version of the benchmark table
 ```
 A preview of the benchmark results is also printed to the terminal when the pipeline finishes.
-
+---
 ## Reproducibility
 
 All structural comparisons are explicitly defined in the dataset.
 Running the pipeline regenerates the benchmarking table directly from the input structures without manual intervention.
 This ensures that the structural benchmark reported in the manuscript can be fully reproduced by any reviewer or reader.
+---
+## Citation
+
+If you use this repository, please cite the associated IBAM/C12orf29 study and reference this repository directly.
+
+Friis TE. *C12orf29 encodes IBAM (In Between Actin and Myosin), a conserved actomyosin-associated protein exhibiting deeply conserved interaction grammar across eukaryotic evolution.* Manuscript in preparation.
+---
 
 ###  License
 
