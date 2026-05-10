@@ -43,72 +43,94 @@ dali_batch_runs/
 ```
 ## Requirements
 
-### The pipeline requires:
-```
-Linux or macOS shell
-DALILite v5
-Python 3
-```
-DALILite must be available in the system PATH.
+---
 
-#### Example installation location:
+## Requirements
+
+The pipeline requires:
+
+```
+Linux or macOS shellDALILite v5Python 3
+```
+
+DALILite must be available in the system `PATH`.
+
+Example installation location:
+
 ```
 ~/DaliLite/DaliLite.v5/bin/dali.pl
 ```
-#### Add DALILite to the PATH if necessary:
+
+Add DALILite to the `PATH` if necessary:
+
 ```
 export PATH="$HOME/DaliLite/DaliLite.v5/bin:$PATH"
 ```
-### Running the Benchmark
+
+---
+
+## Running the Benchmark
 
 From the repository root:
-````
-cd dali_projects
-bash ../scripts/run_dali_benchmark_pipeline.sh
-````
+
+```
+cd dali_projectsbash ../scripts/run_dali_benchmark_pipeline.sh
+```
+
 The pipeline will automatically:
-````
-Validate the dataset structure
-Run all DALILite pairwise structural comparisons
-Parse the results
-Generate manuscript-ready summary tables
-````
+
+- validate the dataset structure
+- run all DALILite pairwise structural comparisons
+- parse the results
+- generate manuscript-ready summary tables
+
 Runtime on a typical workstation is approximately 1 minute.
 
-### Output
+---
 
-#### Results are written to:
+## Output
+
+Results are written to:
+
 ```
 dali_batch_runs/results/
 ```
-### Generated files:
 
-#### File	Description
-```
-dali_summary.tsv	Parsed DALILite output
-dali_manuscript_table.tsv	Formatted table used in the manuscript
-dali_manuscript_table.md	Markdown version of the benchmark table
-```
+### Generated files
+
+|File|Description|
+|---|---|
+|`dali_summary.tsv`|Parsed DALILite output|
+|`dali_manuscript_table.tsv`|Formatted table used in the manuscript|
+|`dali_manuscript_table.md`|Markdown version of the benchmark table|
+
 A preview of the benchmark results is also printed to the terminal when the pipeline finishes.
+
+---
 
 ## Reproducibility
 
 All structural comparisons are explicitly defined in the dataset.
+
 Running the pipeline regenerates the benchmarking table directly from the input structures without manual intervention.
-This ensures that the structural benchmark reported in the manuscript can be fully reproduced by any reviewer or reader.
+
+This ensures that the structural benchmark reported in the study can be fully reproduced by any reviewer or reader.
+
+---
 
 ## Citation
 
 If you use this repository, please cite the associated IBAM/C12orf29 study and reference this repository directly.
 
-Friis TE. *C12orf29 encodes IBAM (In Between Actin and Myosin), a conserved actomyosin-associated protein exhibiting deeply conserved interaction grammar across eukaryotic evolution.* Manuscript in preparation.
+Friis TE. _C12orf29 encodes IBAM (In Between Actin and Myosin), a conserved actomyosin-associated protein exhibiting deeply conserved interaction grammar across eukaryotic evolution._ Manuscript in preparation.
+
 ---
 
-###  License
+## License
 
 MIT License
 
-Copyright (c)
+Copyright (c) Thor Einar Friis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy  
 of this software and associated documentation files (the "Software"), to deal  
@@ -128,11 +150,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE  
 SOFTWARE.
 
+---
 
+## Author
 
-### Author
 Thor Einar Friis
 
-### ORCID
-https://orcid.org/0000-0002-4132-4912
+## ORCID
+
+[https://orcid.org/0000-0002-4132-4912](https://orcid.org/0000-0002-4132-4912)
+
 
