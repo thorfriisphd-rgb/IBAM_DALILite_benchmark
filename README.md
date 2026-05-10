@@ -96,7 +96,7 @@ A preview of the benchmark results is also printed to the terminal when the pipe
 All structural comparisons are explicitly defined in the dataset.
 Running the pipeline regenerates the benchmarking table directly from the input structures without manual intervention.
 This ensures that the structural benchmark reported in the manuscript can be fully reproduced by any reviewer or reader.
----
+
 ## Citation
 
 If you use this repository, please cite the associated IBAM/C12orf29 study and reference this repository directly.
