@@ -50,7 +50,7 @@ dali_batch_runs/
 The pipeline requires:
 
 ```
-Linux or macOS shellDALILite v5Python 3
+Linux or macOS shell DALILite v5 Python 3
 ```
 
 DALILite must be available in the system `PATH`.
